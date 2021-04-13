@@ -40,7 +40,7 @@ def get_content(poti_path):
     return poti_path.read_text(encoding = 'utf-8')
 
 
-if __name__ == "__main__":
+if __name__ == "__main":
     sources = list(Path(f'./clean_tengyur_google_text').iterdir())
     sources.sort()
     targets = list(Path(f'./tengyur_namsel_reconstructed').iterdir())
